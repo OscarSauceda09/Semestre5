@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>E-SHOP || Login Page</title>
+  <title>CompuMarket-Iniciar Sesion</title>
   @include('backend.layouts.head')
 
 </head>

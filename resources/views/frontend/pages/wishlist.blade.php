@@ -8,8 +8,8 @@
 				<div class="col-12">
 					<div class="bread-inner">
 						<ul class="bread-list">
-							<li><a href="{{('home')}}">Home<i class="ti-arrow-right"></i></a></li>
-							<li class="active"><a href="javascript:void(0);">Wishlist</a></li>
+							<li><a href="{{('home')}}">Inicio<i class="ti-arrow-right"></i></a></li>
+							<li class="active"><a href="javascript:void(0);">Lista de deseos</a></li>
 						</ul>
 					</div>
 				</div>
@@ -27,10 +27,10 @@
 					<table class="table shopping-summery">
 						<thead>
 							<tr class="main-hading">
-								<th>PRODUCT</th>
-								<th>NAME</th>
+								<th>PRODUCTO</th>
+								<th>NOMBRE</th>
 								<th class="text-center">TOTAL</th> 
-								<th class="text-center">ADD TO CART</th> 
+								<th class="text-center">AGREGAR AL CARRITO</th> 
 								<th class="text-center"><i class="ti-trash remove-icon"></i></th>
 							</tr>
 						</thead>
@@ -54,7 +54,7 @@
 							@else 
 								<tr>
 									<td class="text-center">
-										There are no any wishlist available. <a href="{{route('product-grids')}}" style="color:blue;">Continue shopping</a>
+										No hay ninguna lista de deseos disponible. <a href="{{route('product-grids')}}" style="color:blue;">Continuar comprando</a>
 
 									</td>
 								</tr>
@@ -78,8 +78,8 @@
 					<!-- Start Single Service -->
 					<div class="single-service">
 						<i class="ti-rocket"></i>
-						<h4>Free shiping</h4>
-						<p>Orders over $100</p>
+						<h4>ENVIO GRATIS</h4>
+						<p>En compras mayores a $2000</p>
 					</div>
 					<!-- End Single Service -->
 				</div>
@@ -87,8 +87,8 @@
 					<!-- Start Single Service -->
 					<div class="single-service">
 						<i class="ti-reload"></i>
-						<h4>Free Return</h4>
-						<p>Within 30 days returns</p>
+						<h4>DEVOLUCION GRATUITA</h4>
+						<p>Devolucion dentro de 30 dias</p>
 					</div>
 					<!-- End Single Service -->
 				</div>
@@ -96,8 +96,8 @@
 					<!-- Start Single Service -->
 					<div class="single-service">
 						<i class="ti-lock"></i>
-						<h4>Sucure Payment</h4>
-						<p>100% secure payment</p>
+						<h4>PAGO SEGURO</h4>
+						<p>Pago 100% seguro</p>
 					</div>
 					<!-- End Single Service -->
 				</div>
@@ -105,8 +105,8 @@
 					<!-- Start Single Service -->
 					<div class="single-service">
 						<i class="ti-tag"></i>
-						<h4>Best Peice</h4>
-						<p>Guaranteed price</p>
+						<h4>MEJOR PRECIO</h4>
+						<p>Precio garantizado</p>
 					</div>
 					<!-- End Single Service -->
 				</div>

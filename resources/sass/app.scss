@@ -1,8 +1,26 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+// app.scss
 
-// Variables
+// Importar las fuentes y las variables
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 @import 'variables';
 
-// Bootstrap
+// Importar Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+// Estilos personalizados
+body {
+  background-color: $primary-color; // Fondo lila metálico
+  font-family: 'Nunito', sans-serif;
+  color: $text-color; // Color de texto
+}
+
+a {
+  color: $secondary-color;
+  &:hover {
+    color: darken($secondary-color, 15%); // Color al pasar el mouse
+  }
+}
+
+.header {
+  background-color: $background-color; // Fondo de la cabecera
+}
